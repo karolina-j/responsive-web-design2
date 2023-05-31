@@ -1,0 +1,524 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tsukimi+Rounded&display=swap');
+/*
+'Tsukimi Rounded', 'Cinzel', 
+*/
+
+html, .wrapper {
+    height: 100%;
+}
+body {
+    font-family: impact,  "Gill Sans", Roboto, "Helvetica Neue Light", Helvetica, sans-serif;
+    
+    font-weight: 400;
+    text-align: center;
+
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+.space {
+    height: 25%;
+    box-shadow: 0 5px 15px rgb(0 0 0 / 0.2);
+
+}
+
+
+.space1 {
+    box-shadow: 0 0 10px 0 rgba(0,0,0, 0.45) inset;
+
+    background-color: #dae2e6;
+
+    background-image: url(images/map.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+
+
+.space2 {
+    float: left;
+    width: 50%;
+    background-color: #A9BA88;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.welcome_text {
+    max-width: 70%;
+    max-height: 150px;
+}
+
+.welcome_text h3 {
+    margin: 0 0 10px 0;
+    padding: 0;
+
+
+    font-weight: 900;
+    color: #495336;
+    font-size: 24px;
+}
+
+
+p {
+    margin: 0;
+    padding: 0;
+}
+.welcome_text p {
+    font-weight: bold;
+    font-size: 18px;
+    color: #647249;
+}
+
+
+
+.space3 {
+    background-color: #e8e6df;
+    box-shadow: 0 5px 15px rgb(0 0 0 / 0.2);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup_box {
+    max-width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+
+.signup_box p {
+    color: #4f4e4e;
+}
+
+
+input {
+    width: 100%;
+}
+
+
+
+.email_input {
+    width: 90%;
+    background-color: #e9e8e7;
+    
+    padding: 10px;
+    border: 0;
+    
+    box-shadow: 0 0 15px 4px rgba(0,0,0,0.06);
+
+    border-radius: 10px;
+    border: 1px solid #bb8a6c;
+
+    outline: none;
+}
+
+.email_input:focus {
+    font-weight: 600;
+    background-color: #dfd7d2;
+    padding: 10px;
+    box-shadow: 0 0 5px #bb8a6c;
+    border: 1px solid #bb8a6c;
+}
+
+
+
+.email_submit {
+    background-color: #bb8a6c;
+    color: #4f4e4e;
+    font-weight: 600;
+
+    width: 80px;
+    padding: 10px;
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 0 0 15px 4px rgba(0,0,0,0.06);
+
+    border-style: double;
+    border-width: 5px;
+
+    border-color: #dfd7d2;
+
+}
+
+.email_submit:active {
+    background-color: #8b6750;
+
+}
+
+
+
+
+.space4 {
+    background-color: #bb8a6c;
+    border: 10px double #4f4e4e;
+
+    color: #4f4e4e;
+    font-weight: 600;
+    font-size: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+
+    max-width: 70%;
+}
+
+.quote_author {
+    align-self: flex-end;
+}
+
+
+
+
+
+.space5 {
+    box-shadow: 0 -3px 15px rgb(0 0 0 / 0.09) inset;
+    background-color: #dae2e6;
+    font-size: 18px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.trips {
+    display:  flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.bottom {
+    display: flex;
+    gap: 50px;
+
+    margin-bottom: 30px;
+
+}
+
+.trip {
+    display:  flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+
+
+.title5 {
+    font-size: 24px;
+    color: #4f4e4e;
+    font-weight: 900;
+}
+
+
+.img {
+    background-color: #A9BA88;
+    border-radius: 10px;
+    width: 120px;
+    height: 115px;
+    box-shadow: 0px 2px 8px 0px rgba(99,99,99,0.2);
+}
+
+.img1 {
+    background-image: url(images/iceland.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.img2 {
+    background-image: url(images/italy.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.img3 {
+    background-image: url(images/greece.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.img4 {
+    background-image: url(images/croatia.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.img5 {
+    background-image: url(images/japan.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+.direction {
+    color: #bb8a6c;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+.trip4, 
+.trip5 {
+    display: none;
+}
+
+
+
+
+
+/**********************************************************
+***********************************************************
+                        SMALL SCREEN
+***********************************************************
+***********************************************************/
+@media only screen and (max-width: 480px) {
+   
+    .space1 {  
+        background-color: #A9BA88;
+    }
+    
+    .space2 {
+        float: none;
+        width: auto;
+    }
+    
+
+    .welcome_text h3 {
+        margin: 0 0 15px 0;
+
+    }
+    
+    .space3 {
+        border-style: double;
+        border-width: 7px;
+        border-color: #bb8a6c;        
+    }
+    
+    .signup_box {
+        max-width: 300px;
+        gap: 20px;
+    }
+    
+        
+    .space4 {
+        display: none;
+    }
+    
+
+    .space5 {
+        font-size: 4.5vw;
+
+    }    
+        
+    .img {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .trip3 {
+        display: none;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/**********************************************************
+***********************************************************
+                     bigger MEDIUM SCREEN
+***********************************************************
+**********************************************************/
+@media only screen and (min-width: 730px) {
+    .trip4 {
+        display: flex;
+    }
+}
+
+
+
+
+
+
+/**********************************************************
+***********************************************************
+                        BIG SCREEN
+***********************************************************
+**********************************************************/
+@media only screen and (min-width: 950px) {
+    .space2,
+    .space3,
+    .space4 {
+        padding: 20px;
+    }
+    
+    .space1{
+        height: 35%;
+    	background-image: url(images/horizontal.jpg);
+    }
+
+    .space2 {
+        height: 30%;
+
+        width: 30%;
+        border: 10px solid #A9BA88;
+    }
+
+    .welcome_text {
+        max-width: 85%;
+        max-height: 85%;
+    }
+
+    .welcome_text h3 {
+        margin: 0 0 15px 0;
+        font-size: 30px;
+    }
+
+    .welcome_text p {
+        font-size: 22px;
+    }
+
+
+    .space3 {
+        height: 30%;
+
+        float: left;
+        width: 30%;
+        border: 10px double #bb8a6c;
+    }
+
+    .signup_box {
+        max-width: 80%;
+        max-height: 80%;
+    }  
+    
+    .signup_box p {
+        font-size: 22px;
+    } 
+
+    .email_input,
+    .email_submit {
+        font-size: 16px;
+    }
+    
+    .email_submit {
+        width: 95px;
+    }
+
+
+
+    .space4 {
+        height: 30%;
+        border: 10px solid #bb8a6c;
+    }
+
+    .quote {
+        max-width: 85%;
+        font-size: 25px;
+    }
+    
+
+    .space5 {
+        height: 35%;
+        background-color: #e8e6df;
+    }
+
+    .trips {
+        height: 100%;
+        width: 100%;
+    }
+
+    .trip {
+        width: 100%;
+
+        display:  flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+    }
+    
+    .trip4, 
+    .trip5 {
+        display: flex;
+    }
+
+    .bottom {
+        width: 80%;
+        justify-content: space-between;
+        gap: 60px;
+        flex: 3;
+    }
+
+    .title5 {
+        margin-top: 20px;
+        font-size: 32px;
+        flex: 1;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .trip > a {
+        width: 100%;
+        flex: 3;
+    }
+
+    .img {
+        width: 100%;
+        height: 100%;
+
+        min-height: 90px;
+
+    }
+    
+    .direction {
+        font-size: 22px;
+
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
